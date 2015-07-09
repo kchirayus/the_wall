@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-weight: 300;
+	/*outline: 1px dashed gray;*/
+}
+#container{
+	width: 970px;
+	margin: 0px auto;
+}
+#wrapper{
+	width: 630px;
+	height: 500px;
+	margin: 30px auto;
+	padding: 10px;
+	/*background-color: silver;*/
+}
+#header{
+	height: 30px;
+	padding: 10px 0px;
+	background-color: #1ABC9C;
+}
+#title{
+	display: inline-block;
+	margin-left: 10px;
+}
+#header_name{
+	display: inline-block;
+	vertical-align: top;
+	text-align: top;
+	margin-left: 470px;
+}
+#logoff{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+}
+#post_box{
+	width: 900px;
+	display: inline-block;
+	margin: 30px;
+}
+#post_box h2{
+	text-align: left;
+	margin-bottom: 10px;
+}
+#post_message{
+	width: 900px;
+	height: 80px;
+}
+#msg_box{
+	width: 900px;
+	display: inline-block;
+	margin: 0px 30px;
+}
+.messages{
+	padding: 10px;
+}
+.comment_box{
+	margin-left: 50px;
+}
+.comment_form{
+	margin-bottom: 10px;
+}
+.post_comment{
+	width: 850px;
+	height: 40px;
+}
+.comment_button{
+	width: 80px;
+	height: 10px;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	color: #2ECC71;
+	background-color: white;
+}
+.comments{
+	margin-bottom: 10px;
+}
+h2{
+	margin-bottom: 50px;
+	text-align: center;
+}
+form{
+	display: inline-block;
+	vertical-align: top;
+}
+
+	fieldset{
+		padding: 20px;
+		border: 2px solid black;
+	}
+	legend{
+		padding: 0px 10px;
+	}
+	label{
+		display: block;
+	}
+	input{
+		width: 250px;
+		height: 20px;
+		padding: 0px 5px;
+		margin-bottom: 10px;
+		border: 1px solid black;
+	}
+	.button{
+		border: none;
+		width: 100px;
+		margin: 0px auto;
+		background-color: #1ABC9C;
+	}
+#login{
+	width: 300px;
+}
+#registration{
+	width: 300px;
+	margin-left: 20px;
+}
+.error{
+	color: #E74C3C;
+}
+.green{
+	color: #2ECC71;
+}
